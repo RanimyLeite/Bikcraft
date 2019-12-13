@@ -29,6 +29,32 @@ p {
 	border-color: #fff;
 }
 
+.btn.btn-preto:hover {
+	color: #000;
+	border-color: #000;
+}
+
+.subtitulo {
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+.subtitulo:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 8px auto;
+	margin-bottom: 40px;
+}
+
 /* Header */
 
 .header {
@@ -38,6 +64,7 @@ p {
 	height: 80px;
 	background: #fec63e;
 	padding: 10px 0;
+	z-index: 10; /* Esse z-index serve para dizer que o menu vai ficar por cima de todo conteudo com position relative  */
 }
 
 .header_menu {
@@ -109,3 +136,52 @@ p {
 	letter-spacing: .1em;
 }
 
+/* Produtos */
+
+.produtos {
+	margin: 60px auto;
+}
+
+.produtos_lista li {
+	background: #fec63e;
+	text-align: center;
+}
+
+.produtos li p {
+	padding: 10px 20px 20px 20px;
+}
+
+.produtos_lista li h3 {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	margin-top: 20px;
+}
+
+.produtos_lista li h3:after {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 2px auto;
+}
+
+.produtos_icone {
+	background: #000;
+	padding: 20px;
+}
+
+.btn-preto {
+	margin: 40px auto;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.call {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
