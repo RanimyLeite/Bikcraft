@@ -152,9 +152,10 @@
 	line-height: 30px;
 }
 
-.orcamento_email {
-	margin-bottom: 40px;
+.orcamento_dados span:nth-of-type(2) {
+	margin-bottom: 30px;
 }
+
 
 .orcamento_dados ul {
 	padding-right: 60px;
