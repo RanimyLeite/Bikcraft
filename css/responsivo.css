@@ -8,15 +8,15 @@
 	}
 
 	.qualidade-lista li {
-	padding: 0 10px;
+		padding: 0 10px;
 	}
 
 	/* Footer */
 
 	.footer_redes ul li a {
-	border: 3px solid #fec63e;
-	display: block;
-	padding: 6px;
+		border: 3px solid #fec63e;
+		display: block;
+		padding: 6px;
 	}
 
 	.footer_redes ul li img {
@@ -74,7 +74,7 @@
 	/* Call Home */
 
 	.call {
-	padding-top: 0;
+		padding-top: 0;
 	}
 
 	/* Linhas do esquema de qualidade */
@@ -84,12 +84,26 @@
 	}
 
 	.introducao h1 {
-	font-size: 36px;
-	margin-top: 50px;
+		font-size: 36px;
+		margin-top: 50px;
 	}
 
 	.btn {
 		margin-top: 30px;
 	}
+
+	/* Sobre */
+
+	.missao_sobre p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0;
+	}
+
+	.missao_sobre ul li {
+		font-size: 14px;
+		line-height: 25px;
+	}
+
 
 }
