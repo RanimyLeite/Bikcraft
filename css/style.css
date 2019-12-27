@@ -479,3 +479,19 @@ p {
 .js .fadeInLeft {
   transform: translate3d(-20px,0,0);
 }
+
+/* Para evitar robôs de spam */
+
+.nao-aparece {
+	position: absolute;
+	visibility: hidden;
+	height: 0px;
+}
+
+#form-erro {
+	color: #f64540;
+}
+
+#form-sucesso {
+ color: #31aa39;
+}
