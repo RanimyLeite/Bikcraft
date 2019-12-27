@@ -119,6 +119,7 @@ p {
 
 .header_menu ul li a.menu_ativo {
 	color: #fff;
+	border-color: #fff;
 }
 /* Introdução */
 
@@ -201,6 +202,10 @@ p {
 .produtos_lista li {
 	background: #fec63e;
 	text-align: center;
+}
+
+.produtos_lista li img {
+	margin: 0 auto;
 }
 
 .produtos li p {
